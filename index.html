@@ -4,21 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" integrity="sha512-IJEbgDEF7OeKJRa0MY2PApnyJHRIsgzCveek4ec8VWQ+7KG3ZSKVNYa5xP/Gh0hVP0Mwb+gBsk+GwR3JQGhQNg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles/style.css">
     <title>#7DaysOfCode - JS e DOM</title>
 </head>
 <body>
+    <header>
+        <h1 class="title">Meus Aniversários</h1>
+    </header>
     <main>
-        <h1>Cadastro de pessoas</h1>
         <form class="form js-form">
-            <label for="id">
+            <label for="id" class="id">
                 <input class="form-field js-field" id="id" name="id" type="text" readonly>
             </label>
-            <label for="name">
-                Nome
+            <label for="name" class="form-label js-label">
+                <h2>Nome da pessoa</h2>
                 <input class="form-field js-field" id="name" maxlength="120" minlength="3" name="name" required type="text">
             </label>
-            <label for="birth-date">
-                Data de Nascimento
+            <label for="birth-date" class="form-label js-label">
+                <h2>Data de Nascimento</h2>
                 <input class="form-field js-field" id="birth-date" name="birth-date" required type="date">
             </label>
             <button type="submit">Salvar</button>   

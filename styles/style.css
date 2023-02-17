@@ -1,0 +1,45 @@
+header {
+  background-color: cornflowerblue;
+}
+header .title {
+  color: #ffffff;
+  text-align: center;
+  padding: 5% 0;
+  font-size: 3rem;
+}
+
+main {
+  margin: 5% 5%;
+}
+main .form {
+  display: flex;
+  flex-direction: column;
+}
+main .form .id {
+  display: none;
+}
+main .form .form-label {
+  margin-bottom: 1.25rem;
+}
+main .form .form-label h2 {
+  margin-bottom: 0.5rem;
+}
+main .form button {
+  margin: 1rem 0 2rem 0;
+  width: 150px;
+  padding: 0.5rem 0;
+  font-size: 1.25rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #62e448;
+  color: #ffffff;
+}
+main .list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+main .list .item {
+  display: flex;
+  gap: 21px;
+}/*# sourceMappingURL=style.css.map */

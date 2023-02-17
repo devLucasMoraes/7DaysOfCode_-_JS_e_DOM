@@ -1,0 +1,46 @@
+
+header {
+    background-color: cornflowerblue;
+    .title {
+        color: #ffffff;
+        text-align: center;
+        padding: 5% 0;
+        font-size: 3rem;
+    }
+}
+
+main {
+    margin: 5% 5%;
+    .form {
+        display: flex;
+        flex-direction: column;
+        .id {
+            display: none;
+        }
+        .form-label {
+            margin-bottom: 1.25rem;
+            h2 {
+                margin-bottom: .5rem;
+            }
+        }
+        button {
+            margin: 1rem 0 2rem 0;
+            width: 150px;
+            padding: .5rem 0;
+            font-size: 1.25rem;
+            border-radius: 8px;
+            border: none;
+            background-color: #62e448;
+            color: #ffffff;
+        }
+    }
+    .list {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        .item {
+            display: flex;
+            gap: 21px;
+        }
+    }
+}
