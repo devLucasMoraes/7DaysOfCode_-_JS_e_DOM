@@ -34,12 +34,32 @@ main .form button {
   background-color: #62e448;
   color: #ffffff;
 }
+main .form input {
+  padding: 1em 0.5em;
+  border: none;
+  border-radius: 10px;
+  background-color: #e4e4e4;
+}
+main .form input:hover, main .form input :focus-within {
+  box-shadow: 0.5px 0.5px 4px 0.5px;
+  outline: none;
+}
 main .list {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
 }
 main .list .item {
-  display: flex;
-  gap: 21px;
+  display: inline-flex;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 0.6em 2em;
+  align-items: center;
+  gap: 1em;
+  font-size: 1.25rem;
+  justify-content: space-evenly;
+}
+main .list .item:hover, main .list .item :focus-within {
+  box-shadow: 0.5px 0.5px 4px 0.5px;
+  outline: none;
 }/*# sourceMappingURL=style.css.map */

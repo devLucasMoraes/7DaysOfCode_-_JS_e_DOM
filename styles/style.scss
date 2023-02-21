@@ -33,14 +33,34 @@ main {
             background-color: #62e448;
             color: #ffffff;
         }
+        input {
+            padding: 1em .5em;
+            border: none;
+            border-radius: 10px;
+            background-color: #e4e4e4;
+            &:hover, :focus-within {
+                box-shadow: .5px .5px 4px .5px;
+                outline: none;
+            }
+        }
     }
     .list {
         display: flex;
         flex-direction: column;
         gap: 0.5rem;
         .item {
-            display: flex;
-            gap: 21px;
+            display: inline-flex;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            padding: 0.6em 2em;
+            align-items: center;
+            gap: 1em;
+            font-size: 1.25rem;
+            justify-content: space-evenly;
+            &:hover, :focus-within {
+                box-shadow: .5px .5px 4px .5px;
+                outline: none;
+            }
         }
     }
 }
